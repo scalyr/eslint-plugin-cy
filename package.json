@@ -1,0 +1,26 @@
+{
+  "name": "eslint-plugin-cy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "mocha": {
+    "watch-files": ["test/**/*.js"],
+    "recursive": true,
+    "bail": true
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.17.0",
+    "mocha": "^8.2.1"
+  }
+}
