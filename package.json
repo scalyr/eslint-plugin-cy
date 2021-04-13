@@ -12,7 +12,9 @@
     "test": "mocha"
   },
   "mocha": {
-    "watch-files": ["test/**/*.js"],
+    "watch-files": [
+      "test/**/*.js"
+    ],
     "recursive": true,
     "bail": true
   },
